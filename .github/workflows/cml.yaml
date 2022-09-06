@@ -13,7 +13,9 @@ jobs:
         run: |
           pip install -r requirements.txt
           python train.py
-
-          cat metrics.txt >> report.md
-          cml publish plot.png --md >> report.md
-          cml send-comment report.md
+          echo 'test' > report1.md
+          echo 'test' > report2.md
+          cat metrics.txt >> report1.md
+          cml-publish plot.png --md >> report1.md
+          cml-send-comment report1.md
+          cml-send-comment report2.md
