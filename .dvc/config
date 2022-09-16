@@ -1,4 +1,4 @@
 [core]
-    remote = storage
-['remote "storage"']
-    url = https://remote.dvc.org/dataset-registry
+    remote = bucketawstestrl1
+['remote "bucketawstestrl1"']
+    url = https://bucketawstestrl1.s3.eu-west-3.amazonaws.com/14/5de00f6e6053d3f7044628f9a5b5ff
